@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aditya Bisht - Full Stack Developer</title>
+    <script src="https://kit.fontawesome.com/adc01ebcdf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="animated-bg"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">AB</div>
+            <ul class="nav-menu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="header">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <p class="greeting">Hello, I'm</p>
+                    <h1>Aditya Bisht</h1>
+                    <p class="subtitle">Creative designer & developer turning ideas into seamless digital experiences.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                        <a href="#about" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="hero-avatar">
+                    <div class="avatar-container">
+                        <div class="avatar">
+                            <img src="./Assets/WhatsApp Image 2025-07-15 at 11.31.57 (1).jpeg" alt="Aditya Bisht">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">About Me</h2>
+            <div class="about-content animate-on-scroll">
+                <div class="about-image">
+                    <img src="./Assets/WhatsApp Image 2025-07-07 at 10.35.26.jpeg" alt="About Aditya">
+                </div>
+                <div class="about-info">
+                    <p class="about-text">
+                        Hi, I'm Aditya Bisht, a passionate Java Full Stack Developer based in Noida. I hold a Bachelor's degree in Computer Science from DIT University, Dehradun, where I developed strong skills in Java, Data Structures, and Algorithms.
+                    </p>
+                    <p class="about-text">
+                        My journey in software development has been driven by curiosity and a desire to create meaningful solutions. I enjoy working with both frontend and backend technologies, and I'm always eager to learn new tools and frameworks.
+                    </p>
+                    
+                    <div class="skills-tabs">
+                        <button class="tab-btn active" onclick="showTab('skills')">Skills</button>
+                        <button class="tab-btn" onclick="showTab('projects')">Projects</button>
+                        <button class="tab-btn" onclick="showTab('education')">Education</button>
+                        <button class="tab-btn" onclick="showTab('certifications')">Certifications</button>
+                    </div>
+
+                    <div id="skills" class="tab-content active">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <h4>Languages</h4>
+                                <p>Java, JavaScript (ES6+), HTML5, CSS3</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Framework/Libraries</h4>
+                                <p>React.js</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Tools and Platforms</h4>
+                                <p>Git, GitHub, VS Code, IntelliJ</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Databases</h4>
+                                <p>MySQL, SQL</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Other</h4>
+                                <p>Responsive Design, UI/UX Best Practices, Agile Methodologies</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="projects" class="tab-content">
+                        <div class="skills-grid">
+                          <div class="skill-item">
+                                <h4>Netflix Clone</h4>
+                                <p>E-learning platform with HTML, CSS featuring responsive design and interactive modules.</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>MyPortfolio Webpage</h4>
+                                <p>Built a responsive portfolio using HTML, CSS, and JavaScript to showcase projects, skills, and certifications with a contact form and tab-based navigation.</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Upprated</h4>
+                                <p>Upprated is a responsive landing page for an online learning platform, showcasing courses, features, and testimonials with a clean, modern design.</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Rock-Paper-Scissors game</h4>
+                                <p>Interactive game built with JavaScript featuring user vs computer gameplay.</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>To-Do-List</h4>
+                                <p>Task management application with add, edit, and delete functionality.</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Cafe Bill Generator</h4>
+                                <p>Java-based billing system with menu management and order processing capabilities.</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>Car Rental System</h4>
+                                <p>Complete rental management system using Java Collections and OOP principles.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="education" class="tab-content">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <h4>B.Tech Computer Science</h4>
+                                <p>DIT University, Dehradun</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>12th Grade</h4>
+                                <p>Aryaman Vikram Birla Institute of Learning, Haldwani</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="certifications" class="tab-content">
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <h4>Java Full Stack Development</h4>
+                                <p>J-Spiders</p>
+                            </div>
+                            <div class="skill-item">
+                                <h4>DSA to Development</h4>
+                                <p>Geeks for Geeks</p>
+                            </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">What I can do</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and dynamic websites using modern frontend and backend technologies.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Database Design</h3>
+                    <p>Designing efficient database structures and optimizing queries for better performance.</p>
+                </div>
+                <div class="service-card animate-on-scroll">
+                    <div class="service-icon">
+                        <i class="fas fa-mobile-alt"></i>
+                    </div>
+                    <h3>Java Development</h3>
+                    <p>Building robust desktop applications and backend systems using Java, OOP principles, and data structures.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info animate-on-scroll">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>adityabisht0026@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>+91 9761001592</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Noida, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href=# target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/adityabisht26" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                    <a href="./Assets/Aditya Bisht-Resume.pdf" download class="btn btn-primary" style="margin-top: 20px;">Download CV</a>
+                </div>
+                <div class="contact-form animate-on-scroll">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <input type="text" name="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" placeholder="Your Message" required></textarea>
+                        </div>
+                        <div id="msg" style="margin-bottom: 20px; color: #00d4ff;"></div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Aditya Bisht. All rights reserved.</p>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
+
+ 
